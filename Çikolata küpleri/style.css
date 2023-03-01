@@ -1,0 +1,47 @@
+body {  /* Döküman arka plan rengi*/ 
+    background: #E0C9A9
+}
+
+.title {  /* class */ 
+    color: #630006;
+    font-style: italic;  /* Eğik yazı stili */ 
+    font-size: 30px;  /* Font boyutu*/ 
+    font-weight: bold  /* Kalın font */ 
+}
+
+.intro {  /* class */ 
+    font-style: italic;  /* Eğik yazı stili ve kalın font */ 
+    font-weight: bold;
+
+} 
+
+.info b {  /* info class'ının <b> elementleri için renk ataması*/ 
+    color: #9D3F12;
+
+}
+
+.info u {  /* info class'ının <u> elementleri için konum kaydırma */ 
+    margin: 5px;
+}
+
+.info {  /* info class'ı için konum kaydırma */ 
+    margin-left: 750px;
+}
+
+.cook {  /* cook class'ı için konum kaydırma */ 
+    margin-left: 700px
+}
+
+.in-title {  /* Alt başlıklar için çerçeve ve arkaplan rengi ayarlaması */ 
+    border: 2px solid #630006;
+    background-color: #630006;
+    border-radius: 10px;  /* çerçevenin kenar yumuşatmaları */ 
+     color: white; 
+     width: fit-content;  /* çerçevenin içine alacağı kısım belirlendi */ 
+}
+
+.end {
+    font-family: 'Courier New', Courier, monospace;  /* Yeni bir yazı font stili atanarak boyut font boyutu büyütüldü. */ 
+    margin-left: 70%;  /* end class'ı için konum kaydırıldı. */ 
+    font-size: 30px;
+}
